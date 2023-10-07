@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Search on Google" skipped="0" tests="1" time="5.74" timestamp="2023-10-04 03:08:47"><testcase name="Search for a keyword"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role='listbox']/li&quot;}&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9883da966240baf811aa96c0e04998b5&#10;*** Element info: {Using=xpath, value=//*[@role='listbox']/li}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9883da966240baf811aa96c0e04998b5
+*** Element info: {Using=xpath, value=//*[@role='listbox']/li}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9883da966240baf811aa96c0e04998b5
+*** Element info: {Using=xpath, value=//*[@role='listbox']/li}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: unknown&#13;
+com.training.serenity.pages.GoogleResultPage.get_number_of_results(GoogleResultPage.java:14)&#13;
+com.training.serenity.steps.GoogleSearchSteps.check_result(GoogleSearchSteps.java:26)&#13;
+com.training.serenity.defs.TestGoogleSearch.i_should_see_a_number_of_results(TestGoogleSearch.java:25)&#13;
+✽.I should see a number of results(src/test/resources/features/abc.feature:7)&#13;
+</system-err></testcase></testsuite>

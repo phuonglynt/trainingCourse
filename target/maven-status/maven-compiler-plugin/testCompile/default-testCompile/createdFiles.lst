@@ -1,0 +1,9 @@
+com\training\serenity\pages\GoogleHomePagev1.class
+com\training\serenity\pages\GoogleResultPagev1.class
+com\training\serenity\steps\GoogleSearchSteps.class
+com\training\serenity\defs\TestGoogleSearchDefv1.class
+com\training\serenity\steps\GoogleSearchStepsv1.class
+com\training\serenity\pages\GoogleResultPage.class
+com\training\serenity\defs\TestGoogleSearch.class
+com\training\serenity\pages\GoogleHomePage.class
+com\training\serenity\MyTestSuite.class

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.serenity.MyTestSuite" time="8.662" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="idea.version" value="2022.1.4"/>
+    <property name="java.vm.version" value="11.0.17+8-adhoc..jdk11u"/>
+    <property name="sun.boot.library.path" value="D:\Set up\OpenJDK\openlogic-openjdk-11.0.17+8-windows-x64\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ntply\Downloads\SerenityPracticeProject"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.script" value=""/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.dir" value="C:\Users\ntply\Downloads\SerenityPracticeProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="11.0.17+8-adhoc..jdk11u"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ntply\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Set up\IDE\intellij\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\Set up\IDE\intellij\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Set up\OpenJDK\openlogic-openjdk-11.0.17+8-windows-x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenLogic\jdk-17.0.8.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\OpenJDK\jre-8.0.352.08-hotspot\\bin;C:\Users\ntply\AppData\Local\Android\Sdk\platform_tools;C:\Users\ntply\AppData\Local\Android\Sdk\platform;C:\Program Files\nodejs\;C:\Users\ntply\AppData\Local\Android\Sdk\tools\bin;C:\Users\ntply\AppData\Local\Android\Sdk\tools;C:\Users\ntply\AppData\Local\Microsoft\WindowsApps;C:\Users\ntply\AppData\Local\JetBrains\IntelliJ IDEA 2022.2.1\bin;;C:\Users\ntply\AppData\Local\Programs\Git\cmd;C:\Users\ntply\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\Set up\IDE\intellij\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ntply"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.class.path" value="D:\Set up\IDE\intellij\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\Set up\IDE\intellij\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="user.name" value="ntply"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.4 verify"/>
+    <property name="java.home" value="D:\Set up\OpenJDK\openlogic-openjdk-11.0.17+8-windows-x64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="maven.home" value="D:\Set up\IDE\intellij\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Search for a keyword" classname="Search on Google" time="6.009">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;listbox&apos;]/li&quot;}&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WS0645&apos;, ip: &apos;10.98.239.166&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9883da966240baf811aa96c0e04998b5&#10;*** Element info: {Using=xpath, value=//*[@role=&apos;listbox&apos;]/li}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9883da966240baf811aa96c0e04998b5
+*** Element info: {Using=xpath, value=//*[@role='listbox']/li}
+</error>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search on Google
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search on Google 1
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search on Google
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Search for a keyword
+-------------------------------------------------------------------(search-on-google;search-for-a-keyword)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given I am on the Google homepage
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Access google search
+Oct 04, 2023 3:08:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 47168
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 04, 2023 3:08:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP When I search keyword "DEF"
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Search for keyword: DEF
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then I should see a number of results
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Check result
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9883da966240baf811aa96c0e04998b5
+*** Element info: {Using=xpath, value=//*[@role='listbox']/li}&amp#27;[0m
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ntply\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9883da966240baf811aa96c0e04998b5
+*** Element info: {Using=xpath, value=//*[@role='listbox']/li}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WS0645', ip: '10.98.239.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: unknown&amp#27;[0m
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Search for a keyword
+---------------------------------------------------------------------&amp#27;[0m
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[91mTEST FAILED AT STEP Check result&amp#27;[0m
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='listbox']/li"}
+]]></system-err>
+  </testcase>
+</testsuite>
